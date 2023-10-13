@@ -642,5 +642,25 @@ transition: fill 300ms linear;
     visibility: visible;
     pointer-events: auto;
 }
+.check-label{
+    color: var(--LIGHT-SLATE, #8E8F99);
+    /* Small Text */
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17;
+    /* 116.667% */
+    letter-spacing: 0.03em;
+}
 
-    
+.check-privacy{
+color: var(--IRIS, #4D5AE5);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.48px;
+    text-decoration-line: underline;
+}    
