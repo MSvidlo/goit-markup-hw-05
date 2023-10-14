@@ -633,11 +633,11 @@ border: 1px solid rgba(0, 0, 0, 0.1);
 
 .close-button:focus, .close-button:hover {
     background-color: #404bbf;
-  border: none;
-  fill: #ffffff;
-    }
-.icon-close:hover,
-.icon-close:focus {
+     }
+
+
+.close-button:focus .icon-close,  
+.close-button:hover .icon-close{
     fill: #ffffff;
 }
 .modal-title{
