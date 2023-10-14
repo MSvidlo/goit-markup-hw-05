@@ -504,8 +504,7 @@ box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.
 
 .footer-button{
     display: flex;
-    justify-content:center;
-    align-items: center;
+    align-items: baseline;
     }
 
 .footer-form-title{
@@ -539,8 +538,7 @@ box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.
     
 .foter-line{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: baseline;
     gap:24px;
 }
 .footer-button-form{
