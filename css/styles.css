@@ -470,6 +470,7 @@ box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.
      max-width: 264px;
 }
 .footer-soc-media{
+    margin-right: 80px;
     
 }
 .footer-text-two{color: var(--WHITE, #FFF);
@@ -485,7 +486,7 @@ box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.
     align-items: center;
     margin-top: 8px;
     gap: 16px;
-}
+    }
 .footer-icon{
     display: flex;
     align-items: center;
@@ -501,6 +502,72 @@ box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.
 }
 .footer-icon:focus{background-color: #31d0aa;}
 
+.footer-button{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    }
+
+.footer-form-title{
+    color: var(--WHITE, #FFF);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+ 
+ }
+
+.footer-form{}
+
+.footer-email{
+    width: 264px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px;
+   border: 1px solid var(--WHITE, #FFF);
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    margin-top: 16px;
+        
+}
+.footer-email::placeholder{
+    color: var(--WHITE, #FFF);
+    font-size: 12px;
+    line-height: 2;
+    /* 200% */
+    letter-spacing: 0.04em}
+    
+.foter-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:24px;
+}
+.footer-button-form{
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    /* Button Text */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height:1.5;
+    letter-spacing: 0.04em;
+    display: inline-flex;
+   padding: 8px 24px;
+   justify-content: center;
+   align-items: center;
+   gap: 16px;
+    border-radius: 4px;
+    background-color: var(--IRIS, #4D5AE5);
+    border:none;
+    width: 165px;
+    height:40px;
+}
+
+.footer-form-icon{
+    fill:#FFFFFF
+}
 .backdrop{
     position:fixed;
     width: 100%;
@@ -712,7 +779,7 @@ transition: fill 300ms linear;
 
 
 
-    
+
 .is-open{
     opacity: 1;
     visibility: visible;
