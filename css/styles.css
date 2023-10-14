@@ -513,10 +513,14 @@ box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+    margin-bottom: 16px;
  
  }
 
-.footer-form{}
+.footer-form{
+    display: flex;
+    gap: 24px;
+}
 
 .footer-email{
     width: 264px;
@@ -526,7 +530,8 @@ box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.
    border: 1px solid var(--WHITE, #FFF);
    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background-color: transparent;
-    margin-top: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    color: #ffffff;
         
 }
 .footer-email::placeholder{
@@ -536,22 +541,22 @@ box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.
     /* 200% */
     letter-spacing: 0.04em}
     
-.foter-line{
+/* .foter-line{
     display: flex;
     align-items: baseline;
     gap:24px;
-}
+} */
 .footer-button-form{
     color: var(--WHITE, #FFF);
     text-align: center;
     /* Button Text */
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height:1.5;
     letter-spacing: 0.04em;
-    display: inline-flex;
+    display: flex;
    padding: 8px 24px;
    justify-content: center;
    align-items: center;
@@ -564,7 +569,7 @@ box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.
 }
 
 .footer-form-icon{
-    fill:#FFFFFF
+     fill: #FFFFFF;
 }
 .backdrop{
     position:fixed;
@@ -587,6 +592,7 @@ box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.
     left:50%;
     transform: translate(-50%,-50%);
     padding:24px;
+    ь transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-button
 {
